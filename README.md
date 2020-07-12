@@ -6,6 +6,6 @@ Python Architecture Project consists of three services:
 
 Execute `docker-compose up` to run the project.
 
-Test images and ground truth mask can be found in `images` folder.
+Test images and ground truth masks can be found in `images` folder.
 
 See demo videos in `demo` folder.
