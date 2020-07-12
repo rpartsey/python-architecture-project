@@ -8,11 +8,20 @@ services:
     networks:
       - deploy_network
     container_name: ml-api
+    
+  metrics-api:
+    build: metrics-api/
+    ports: 
+      - 8001:8001
+    networks:
+      - deploy_network
+    container_name: metrics-api
 
   streamlit-ui:
     build: streamlit-ui/
     depends_on:
       - ml-api
+      - metrics-api
     ports: 
         - 8501:8501
     networks:
