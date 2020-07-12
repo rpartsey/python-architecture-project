@@ -1,7 +1,4 @@
 import torch
-import io
-from rasterio.io import MemoryFile
-
 from ai.transforms import Compose, ToNumpyInt32, FromNumpy, ToTorchFloat, Normalize
 
 
