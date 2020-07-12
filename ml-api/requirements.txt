@@ -3,7 +3,7 @@ torch==1.5.0+cpu
 torchvision==0.6.0+cpu
 python-multipart==0.0.5 
 aiofiles==0.4.0
-flask
-numpy
-rasterio
-segmentation-models-pytorch
+flask==1.1.2
+numpy==1.19.0
+rasterio==1.1.5
+segmentation-models-pytorch==0.1.0
