@@ -1,5 +1,4 @@
 streamlit==0.63.0
-awesome-streamlit==20191018.1
 torch==1.5.1
 torchvision==0.6.1
 segmentation-models-pytorch==0.1.0

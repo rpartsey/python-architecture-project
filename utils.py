@@ -3,6 +3,7 @@ import zlib
 import cv2
 from rasterio.io import MemoryFile
 
+
 def bytes_to_array(binary_image):
 
     with MemoryFile(binary_image) as mem_file:
@@ -10,6 +11,7 @@ def bytes_to_array(binary_image):
             array = src.read()
 
     return array
+
 
 def decode(raw_bytes, dtype):
 
@@ -24,6 +26,7 @@ def encode(image):
     compressed_image = zlib.compress(binary_image)
 
     return compressed_image
+
 
 def overlay(image, label, alpha=0.5):
     overlay_image = np.zeros_like(image)
