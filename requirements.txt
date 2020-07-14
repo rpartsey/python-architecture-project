@@ -1,12 +1,10 @@
-streamlit==0.61.0 
-torch==1.5.0+cpu
-torchvision==0.6.0+cpu
+streamlit==0.63.0
+awesome-streamlit==20191018.1
+torch==1.5.1
+torchvision==0.6.1
 segmentation-models-pytorch==0.1.0
 numpy==1.19.0
 opencv-python==4.2.0.34
 Pillow==7.1.2
 rasterio==1.1.5
 scikit-learn==0.23.1
-requests==2.24.0
-python-multipart==0.0.5
-aiofiles==0.4.0
